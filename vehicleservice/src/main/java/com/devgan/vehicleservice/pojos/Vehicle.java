@@ -1,4 +1,4 @@
-package com.devgan.vehicleservice.pojo;
+package com.devgan.vehicleservice.pojos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,7 +8,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class Vehicle {
-    private String vehicleName;
     private String vehicleId;
-    private Device device;
+    private String vehicleName;
 }

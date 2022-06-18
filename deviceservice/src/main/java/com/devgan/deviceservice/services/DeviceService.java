@@ -1,7 +1,7 @@
-package com.devgan.deviceservice.service;
+package com.devgan.deviceservice.services;
 
-import com.devgan.deviceservice.pojo.Device;
-import com.devgan.deviceservice.repo.DeviceRepository;
+import com.devgan.deviceservice.pojos.Device;
+import com.devgan.deviceservice.repos.DeviceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +17,7 @@ public class DeviceService {
         return deviceRepository.devices();
     }
 
-    public Device deviceByDeviceId(String deviceId){
-        return deviceRepository.deviceByDeviceId(deviceId);
+    public Device deviceById(String deviceId){
+        return deviceRepository.deviceById(deviceId);
     }
 }

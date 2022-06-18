@@ -1,4 +1,4 @@
-package com.devgan.deviceservice.pojo;
+package com.devgan.deviceservice.pojos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Device {
-    private String deviceId;
-    private String deviceName;
-
+public class ErrorMessage {
+    private String message;
 }

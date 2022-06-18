@@ -1,4 +1,4 @@
-package com.devgan.vehicleservice.pojo;
+package com.devgan.deviceservice.pojos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

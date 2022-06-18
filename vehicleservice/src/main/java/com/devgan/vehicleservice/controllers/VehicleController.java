@@ -1,8 +1,8 @@
-package com.devgan.vehicleservice.controller;
+package com.devgan.vehicleservice.controllers;
 
 
-import com.devgan.vehicleservice.pojo.Vehicle;
-import com.devgan.vehicleservice.service.VehicleService;
+import com.devgan.vehicleservice.pojos.Vehicle;
+import com.devgan.vehicleservice.services.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
